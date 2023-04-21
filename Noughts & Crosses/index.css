@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url(WhatsApp\ Image\ 2023-04-13\ at\ 12.35.53.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+#main {
+    margin-top: 3%;
+    text-align: center;
+    width: 39%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 80vh;
+}
+
+#font-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+#heading {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: peru;
+    font-size: 3rem;
+}
+
+#ins {
+    margin-top: 2rem;
+    color: wheat;
+    font-size: 1.2rem;
+}
+
+.box {
+    width: 80px;
+    height: 52px;
+    margin: auto;
+    border: 3px solid wheat;
+    border-radius: 6px;
+    font-size: 3rem;
+    text-align: center;
+    width: 32.66%;
+    height: 15vh;
+    cursor: pointer;
+    margin-bottom: 0.3rem;
+}
+
+.box:hover {
+    opacity: 98%;
+}
+
+#bottom-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#reset {
+    width: 95px;
+    height: 40px;
+    border: 1px solid darkolivegreen;
+    margin: auto;
+    border-radius: 4px;
+    background-color: hsl(82, 39%, 60%);
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+#reset:hover {
+    opacity: 80%;
+}
+
+#reset:active {
+    transform: scale(0.9);
+}
+
+#status {
+    margin-top: 2rem;
+    color: wheat;
+    font-size: 1.3rem;
+    padding: 0.7rem;
+    border-radius: 1rem;
+}
